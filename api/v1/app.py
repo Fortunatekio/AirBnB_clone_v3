@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+""" This module initializes a Flask application"""
+
 from flask import Flask
 from os import getenv
 from models import storage
