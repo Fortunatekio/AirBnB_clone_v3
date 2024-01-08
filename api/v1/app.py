@@ -7,6 +7,7 @@ from models import storage
 from models.state import State
 from api.v1.views import app_views
 from api.v1.views import cities
+from api.v1.views import states
 
 app = Flask(__name__)
 app.register_blueprint(app_views)
